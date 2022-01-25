@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# 감성 일기장 today Diary  
+  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://github.com/Chry8822" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://instagram.com/chrysan_th" target="_blank">
+<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
+</a>  
+  
 
-## Available Scripts
+### Glad to see you here!  
+- 하루의 마무리를 일기로 써보자.😀
 
-In the project directory, you can run:
+* https://react-project-chrys.web.app/  
+  
+<br/>  
 
-### `npm start`
+![](undefined)  
+  
+  ### 메인화면
+  
+  ![메인](https://user-images.githubusercontent.com/89508217/150920676-b29d8093-daec-4ee0-8a2c-7f8bac0aec37.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  
+ ### 상세화면
+ 
+ ![상세](https://user-images.githubusercontent.com/89508217/150920756-e58a23d8-04fe-4d41-b037-c5faca1dffd0.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<br/>  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 목적  
+**의도 및 목표 📌**  
+  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 리액트 공부를 함께 하면서 포트폴리오를 제작, 서비스 배포
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* 리액트로 싱글페이지 웹앱(web-app) 제작하기
+  
+  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>  
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 기술 스택  
+<div align="center">  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/firebase.png" alt="Firebase" height="50" />  
+</div>  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br/>  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 기능🔥  
+* localStorage 을 이용하여 데이터를 저장.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* 최신순. 감정순 sort 기능
 
-### Code Splitting
+* 날짜별 일기 작성, 수정, 삭제 기능
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  
+  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 파일 트리🎄  
+```
+📦src
+ ┣ 📂components
+ ┃ ┣ 📜DiaryEditor.js
+ ┃ ┣ 📜DiaryItem.js
+ ┃ ┣ 📜DiaryList.js
+ ┃ ┣ 📜EmotionItem.js
+ ┃ ┣ 📜MyButton.js
+ ┃ ┣ 📜MyHeader.js
+ ┃ ┗ 📜RouteTest.js
+ ┣ 📂pages
+ ┃ ┣ 📜Diary.js
+ ┃ ┣ 📜Edit.js
+ ┃ ┣ 📜Home.js
+ ┃ ┗ 📜New.js
+ ┣ 📂utill
+ ┃ ┣ 📜data.js
+ ┃ ┗ 📜emotion.js
 
-### Making a Progressive Web App
+```  
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br/>  
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Github Stats  
+<table><tr><td valign="top" width="50%">
 
-### Deployment
+<img src="https://github-readme-stats.vercel.app/api?username=chry8822&show_icons=true&count_private=true&hide_border=true" align="left" style="width: 100%" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+</td><td valign="top" width="50%">
 
-### `npm run build` fails to minify
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chry8822&hide_border=true&layout=compact" align="left" style="width: 100%" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</td></tr></table>  
+
+<br/>  
+
+![Profile views counter](https://komarev.com/ghpvc/?username=chry8822&&style=flat-square)  
+  
+
+<br/>  
+
+
+<br />
+
+----
+<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
